@@ -8,9 +8,12 @@
                       d:DesignHeight="300"
                       d:DesignWidth="300">
     <StackPanel>
+        <Label>First name</Label>
         <TextBox Name="FirstName" />
+        <Label>Last name</Label>
         <TextBox Name="LastName" />
         <Button Name="SayHello">Click Me!</Button>
+        <Label>Result:</Label>
         <TextBlock Name="HelloMessage" />
     </StackPanel>
 </mahDial:SimpleDialog>

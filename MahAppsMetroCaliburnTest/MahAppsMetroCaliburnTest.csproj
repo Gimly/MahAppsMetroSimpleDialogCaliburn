@@ -85,8 +85,12 @@
     <Compile Include="AppBootstrapper.cs" />
     <Compile Include="IShell.cs" />
     <Compile Include="ViewModels\Dialogs\TestMahAppsDialogViewModel.cs" />
+    <Compile Include="ViewModels\Dialogs\UserControlDialogViewModel.cs" />
     <Compile Include="Views\Dialogs\TestMahAppsDialogView.xaml.cs">
       <DependentUpon>TestMahAppsDialogView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\UserControlDialogView.xaml.cs">
+      <DependentUpon>UserControlDialogView.xaml</DependentUpon>
     </Compile>
     <Page Include="Resources\Icons.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -97,6 +101,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Dialogs\TestMahAppsDialogView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialogs\UserControlDialogView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

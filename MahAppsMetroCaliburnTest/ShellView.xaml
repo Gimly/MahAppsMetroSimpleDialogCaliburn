@@ -11,12 +11,22 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
-        
-        <Button Name="ShowMetroDialog">Show dialog!</Button>
+
+        <Button Grid.Column="0"
+                Grid.Row="0"
+                Name="ShowMetroDialog">Show Metro Dialog</Button>
+
+        <Button Grid.Column="0"
+                Grid.Row="1"
+                Name="ShowPopupWithSimpleDialog">Simple Dialog Popup</Button>
+
+        <Button Grid.Column="1"
+                Grid.Row="1"
+                Name="ShowPopupUserControl">Show Dialog</Button>
     </Grid>
 </mah:MetroWindow>
